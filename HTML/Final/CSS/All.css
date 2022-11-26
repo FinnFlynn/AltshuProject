@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    cursor: default;
+}
+
+::selection {
+    color: #F2E5D6;
+    background: #971428;
+}
+
+#Page {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    background: #1C463D;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+/* Scroll start */
+::-webkit-scrollbar {
+    width: 0.25vw;
+    background-color: #1C463D;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #F2E5D6;
+    border: 0.01vw #1C463D solid;
+    border-radius: 0.1vw;
+}
+
+::-webkit-scrollbar-button {
+    height: 3.3334vh;
+    background-color: #971428;
+    border-radius: 0.1vw;
+}
+/* Scroll end */
+
+
+
+/* ??? start */
+.Main_Text {
+    width: 33%;
+    height: 50%;
+}
+
+.SS {
+    width: 94.3334vw;
+}
+
+.STRANGE {
+    /* width: 87.9938vw; */
+    width: 88.5938vw;
+}
+/* ??? end */

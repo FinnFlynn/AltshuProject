@@ -1,0 +1,84 @@
+@media screen and (min-width: 960px) {
+    #m_page {
+        display: none;
+    }
+
+    #page {
+        width: 100wh;
+        height: 100vh;
+
+        display: grid;
+    }
+
+    @media (orientation: landscape) {
+        #page {
+            grid-template-columns: repeat(16, 6.25%);
+            grid-template-rows: repeat(9, 11.1111%);
+        }
+
+        #PageHeader {
+            font-size: calc(0.78125vh * 1.9)
+        }
+    }
+
+    @media (orientation: portrait) {
+        #page {
+            grid-template-columns: repeat(16, 6.25%);
+            grid-template-rows: minmax(2vw, 7vw) repeat(8, 1fr);
+        }
+
+        #PageHeader {
+            /* font-size: 1.3889vw; */
+            font-size: calc(0.78125vw * 1.7);
+        }
+    }
+
+    #PageHeader {
+        grid-column: 3 / 16;
+        padding: 2% 0%;
+
+        display: grid;
+    }
+
+    #PageHeader *:hover {
+        color: #D43C38;
+    }
+
+    #MenuBox {
+        grid-row: 1 / 2;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #Menu {
+        min-width: 55%;
+        display: flex;
+    }
+
+    #Menu * {
+        margin-right: 5%;
+    }
+
+    #Other {
+        min-width: 45%;
+
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    #Other * {
+        margin-left: 5%;
+    }
+
+    #Line {
+        grid-row: 2 / 3;
+        align-self: end;
+
+        height: 1%;
+        width: 100%;
+        background-color: #b3bfcd88;
+    }
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="110"
+   height="80"
+   viewBox="0 0 110 80"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   sodipodi:docname="Left_Arrow.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.6296875"
+     inkscape:cx="380.34739"
+     inkscape:cy="166.74938"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5"><inkscape:grid
+       type="xygrid"
+       id="grid1568"
+       originx="0"
+       originy="0" /></sodipodi:namedview><defs
+     id="defs2" /><path
+     style="fill:#ffffff"
+     d="M 0,40 45,0 v 15 h 25 c 40.34481,0.52462 39.87376,23.31884 40,63.5575 C 86.82561,63.21594 93.49567,64.66368 45,65 V 80 M 40,70 V 60 C 90.73063,59.41339 90.81716,59.34848 105,70 103.31189,15.99819 91.23641,20.12012 40,20 V 10 L 6.25,40"
+     id="path985"
+     sodipodi:nodetypes="ccccccccccccc"
+     inkscape:label="Left_Arrow" /></svg>

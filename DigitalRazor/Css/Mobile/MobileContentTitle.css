@@ -1,0 +1,138 @@
+@media screen and (max-width: 959px) and (orientation: portrait) {
+    
+    #MobileBackButton {
+
+        margin-left: 15%;
+        height: 25%;
+        width: 25%;
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+
+    #MobileContentTitl {
+        grid-column-start: 2;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: 4;
+
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        justify-items: center;
+    }
+
+    #MobileContentTitl h1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        font-weight: 900;
+        line-height: 117%;
+    }
+
+    #MobileContentTitl div {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        align-self: end;
+
+        height: 1%;
+        width: 66.6667%;
+        background-color: #D43C38;
+    }
+
+    #MobileContentTitl h3 {
+        align-self: end;
+
+        font-weight: 400;
+        line-height: 233%;
+    }
+
+    #MobileContentTitl h2 {
+        align-self: start;
+
+        font-weight: 700;
+        line-height: 117%;
+    }
+
+}
+
+@media screen and (max-width: 959px) and (orientation: landscape) {
+    
+    #MobileBackButton {
+        margin-top: 15%;
+        justify-self: center;
+        align-self: center;
+        height: 33%;
+        width: 33%;
+
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+
+        z-index: 2;
+    }
+
+    #MobileContentTitl {
+        grid-column-start: 2;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 3;
+
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #MobileContentTitl h1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        font-weight: 900;
+        line-height: 117%;
+    }
+
+    #MobileContentTitl div {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        align-self: end;
+
+        height: 1%;
+        width: 90%;
+        background-color: #D43C38;
+    }
+
+    #MobileContentTitl h3 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+        font-weight: 400;
+        line-height: 233%;
+    }
+
+    #MobileContentTitl h2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+        font-weight: 700;
+        line-height: 117%;
+    }
+
+}

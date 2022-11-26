@@ -1,0 +1,105 @@
+.Header_Frame {
+    Top: -9.55vh;
+    width: 10vw;
+    height: 9vh;
+    position: absolute;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    justify-items: center;
+}
+
+.Header {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 10vw;
+    height: 6vh;
+
+    color: #F2E5D6;
+    font-family: 'Neuton';
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 14%;
+
+    background: #971428;
+    box-shadow: 0vw 0.5556vh 1.25vh #88170088;
+    border-radius: 5.4688%/19.4445%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header_Frame a {
+    width: 10vw;
+
+    cursor: pointer;
+    color: #971428;
+    text-shadow: 0vw 0.111vh 0.5556vh #88170088;
+    font-size: 3vw;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+.Down {
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.Up {
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+}
+
+.Second_window {
+    width: 94.2188vw;
+    padding: 3.3334vh 2.8125vw;
+    background-image: url("../Images/BG.png");
+    background-size: 100vw 100vh;
+    border: solid #1C463D;
+    border-width: 0.1389vh 0.0781vw;
+    display: flex;
+}
+
+.S_win_frame {
+    height: 87.6664vh;
+    border: solid #1C463D;
+    border-width: 0.4167vh 0.0781vw;
+    border-radius: 1.49%/2.7273%;
+    display: grid;
+    grid-template-columns: 2.8125vw repeat(16, 1fr) 2.8125vw;
+    grid-template-rows: 3.3334vh repeat(8, 1fr) 3.3334vh;
+}
+
+.Navigation {
+    grid-row-start: 5;
+    grid-row-end: 7;
+    align-self: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: #1C463D;
+    font-family: 'Neuton';
+    font-weight: 400;
+    font-size: 0.7vw;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.L_nav {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    justify-self: start;
+}
+
+.R_nav {
+    grid-column-start: 18;
+    grid-column-end: 19;
+
+    justify-self: end;
+}

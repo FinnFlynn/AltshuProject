@@ -1,0 +1,45 @@
+@media screen and (max-width: 959px) and (orientation: portrait) {
+
+    #MobileContentTitl {
+        font-size: calc(1.875vw * 1.25 * 1.75);
+    }
+
+    #MobileContentTitl h2 {
+        font-size: calc(0.9375vw * 1.75 * 4);
+    }
+
+    .MobileContentItems h4 {
+        font-size: calc(0.9766vw * 2.5 * 3);
+    }
+
+    .MobileContentItems p {
+        font-size: calc(0.5469vw * 1.75 * 3);
+    }
+
+    .MobileContentItems a {
+        font-size: calc(0.7031vw * 1.75 * 3);
+    }
+}
+
+@media screen and (max-width: 959px) and (orientation: landscape) {
+
+    #MobileContentTitl {
+        font-size: calc(1.875vh * 1.25 * 1.75);
+    }
+
+    #MobileContentTitl h2 {
+        font-size: calc(0.9375vh * 1.75 * 3.25);
+    }
+
+    .MobileContentItems h4 {
+        font-size: calc(0.9766vh * 2.5 * 2.5);
+    }
+
+    .MobileContentItems p {
+        font-size: calc(0.5469vh * 1.75 * 3);
+    }
+
+    .MobileContentItems a {
+        font-size: calc(0.7031vh * 1.75 * 3);
+    }
+}

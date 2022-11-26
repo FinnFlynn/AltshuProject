@@ -1,0 +1,25 @@
+* {
+    margin: 0vh 0vw;
+    padding: 0vh 0vw;
+    color: #fff;
+    font-family: "Montserrat";
+    text-decoration: none;
+}
+
+::selection {
+    color: #fff;
+    background: #D43C38;
+}
+
+body {
+    background-color: #020405;
+}
+
+svg {
+    fill: #fff;
+}
+
+svg:hover {
+    fill: #D43C38;
+}
+

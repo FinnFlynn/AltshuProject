@@ -1,0 +1,115 @@
+@media screen and (max-width: 959px) and (orientation: portrait) {
+
+    #page {
+        display: none;
+    }
+
+    #m_page {
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+        width: 100vw;
+        height: 100vh;
+
+        display: grid;
+        grid-template-columns: repeat(3, 13.3333%) 1fr repeat(3, 13.3333%);
+        grid-template-rows: repeat(8, 12.5%);
+    }
+
+    #MobilePageHeader {
+        grid-column-start: 2;
+        grid-column-end: 7;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #MobilePageHeader a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #MobileLogo {
+        justify-self: center;
+    }
+
+    #MobilePageHeader * {
+        color: #fff;
+    }
+
+    #MobilePageHeader *:hover {
+        color: #D43C38;
+    }
+}
+
+@media screen and (max-width: 959px) and (orientation: landscape) {
+
+    #page {
+        display: none;
+    }
+
+
+    #m_page {
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+        width: 100vw;
+        height: 100vh;
+
+        display: grid;
+        grid-template-columns: repeat(8, 12.5%);
+        grid-template-rows: repeat(3, 13.3333%) 1fr repeat(3, 13.3333%);
+    }
+
+    #MobilePageHeader {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 8;
+
+        background-color: #020405;
+
+        display: grid;
+        grid-template-columns: 1f;
+        grid-template-rows: repeat(4, 25%);
+        align-items: center;
+        justify-items: center;
+
+        z-index: 2;
+    }
+
+
+    #Profile {
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #MobileLogo {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        width: 150%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #MobilePageHeader p {
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    #MobilePageHeader * {
+        color: #fff;
+    }
+
+    #MobilePageHeader *:hover {
+        color: #D43C38;
+    }
+
+}

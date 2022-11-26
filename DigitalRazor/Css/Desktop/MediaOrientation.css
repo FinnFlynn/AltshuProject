@@ -1,0 +1,89 @@
+@media screen and (min-width: 960px) and (orientation: landscape) {    
+   
+
+    #ContentHeaderMenu a {
+        font-size: calc(1.25vh * 1.75);
+    }
+
+    #ContentTitl {
+        font-size: calc(1.875vh * 1.25);
+    }
+
+    #ContentTitl h3 {
+        font-size: calc(0.9375vh * 1.75);
+    }
+
+    .ContentItems {
+        box-shadow: 0px 0px 1vh #D43C3888;
+    }
+
+    .ContentItems:hover {
+        box-shadow: 0px 0px 5vh #D43C38CC;
+    }
+
+    .ContentItems h4 {
+        font-size: calc(0.9766vh * 2.5);
+    }
+
+    .ContentItems p {
+        font-size: calc(0.5469vh * 1.75);
+    }
+
+    .ContentButton {
+        font-size: calc(0.7031vh * 1.75);
+    }
+
+    .ItemsImg img {
+        height: 75%;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 960px) and (orientation: portrait) {
+    
+
+    #ContentHeaderMenu a {
+        /* font-size: 2.2222vw; */
+        font-size: calc(1.25vw * 1.75);
+    }
+
+    #ContentTitl {
+        /* font-size: 3.3333vw; */
+        font-size: calc(1.875vw * 1.25);
+    }
+
+    #ContentTitl h3 {
+        /* font-size: 1.6667vw; */
+        font-size: calc(0.9375vw * 1.75);
+    }
+
+    .ContentItems {
+        box-shadow: 0px 0px 1vw #D43C3888;
+    }
+
+    .ContentItems:hover {
+        box-shadow: 0px 0px 5vw #D43C38CC;
+    }
+
+    .ContentItems h4 {
+        /* font-size: 1.7361vw; */
+        font-size: calc(0.9766vw * 2.5);
+    }
+
+    .ContentItems p {
+        /* font-size: 0.9722vw; */
+        font-size: calc(0.5469vw * 1.75);
+    }
+
+    .ContentButton {
+        /* font-size: 1.25vw; */
+        font-size: calc(0.7031vw * 1.75);
+    }
+
+    .ItemsImg img {
+        width: 75%;
+    }
+}
