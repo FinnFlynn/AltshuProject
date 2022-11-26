@@ -1,0 +1,42 @@
+https://codepen.io/pen/
+
+--------------------------------------
+
+<header>
+    <a href="#Main">Главная</a>
+    <a href="#About">О компании</a>
+    <a href="#Location">Где мы</a>   
+    <a href="#Contact">Контакты</a>      
+</header>
+
+--------------------------------------
+
+header {
+  height: 7vh;
+  width: 33%;
+  
+  background-color: darkblue;
+  border: 1px solid #000;
+  
+  font-size: 90%;
+  font-weight: bold;
+  text-decoration: none;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header a {
+  margin: 0% 2.5%;
+  padding: 0.5%;
+  
+  color: #fff;
+  border: #fff solid 1px;
+  
+  text-decoration: none;
+}
+
+header a:hover {
+  padding: 1%
+}
