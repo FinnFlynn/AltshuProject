@@ -21,5 +21,3 @@ while (closeAgeForm == false) {
                     )
             );
 }
-closeAgeForm = false
-console.log('OK')
