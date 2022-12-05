@@ -1,0 +1,87 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+    background-color: BurlyWood;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#toggle {
+    visibility: hidden;
+    opacity: 0;
+    position: relative;
+    z-index: -1;
+}
+
+#toggle:checked~dialog {
+    display: block;
+}
+
+label {
+    height: 5%;
+    padding: 0% 2%;
+
+    background-color: LightSalmon;
+    border: solid 0.01vw;
+    border-radius: 5% 5% / 25%;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+
+#closeButton {
+    height: 10%;
+    border-radius: 5% / 25% 25% 0% 0%;
+    border-width: 0.1vw;
+}
+
+label:hover {
+    background-color: darkred;
+    color: cornsilk;
+    border-color: cornsilk;
+}
+
+dialog {
+
+    background-color: rgb(196, 158, 109);
+    border-style: none;
+
+    left: 37.5%;
+    height: 25%;
+    width: 25%;
+
+    border-radius: 25% 25% 25% 25% / 5%;
+
+    animation: appear 350ms ease-in 1;
+}
+
+#jokeBlock {
+    height: 80%;
+    width: 100%;
+}
+
+#newJoke {
+    height: 10%;
+    width: 100%;
+    padding: 0% 2%;
+
+    background-color: LightSalmon;
+    border: 0.1vw solid #000;
+    border-radius: 0% 0% 5% 5% / 25%;
+}
+
+#newJoke:hover {
+    background-color: darkred;
+    color: cornsilk;
+    border-color: cornsilk;
+}

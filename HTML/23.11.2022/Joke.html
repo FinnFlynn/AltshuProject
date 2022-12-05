@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="Joke.css" type="text/css">
+
+<body>
+    <input type="checkbox" id="toggle">
+    <label for="toggle">Открыть Шутка блок</label>
+    <dialog>
+        <label for="toggle" id="closeButton">Закрыть Шутка блок</label>
+        <div id="jokeBlock">
+            <p id="joke">Пока шутки нет</p>
+        </div>
+        <button onclick="getJoke()" id="newJoke">Новая шутка</button>
+    </dialog>
+</body>
+
+<script src="Joke.js"></script>
+
+</html>
