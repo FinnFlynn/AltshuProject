@@ -1,0 +1,70 @@
+#L_text_block {
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 7;
+
+    color: #1C463D;
+    font-family: 'Trykker';
+    font-weight: 400;
+    font-size: 1.7188vw;
+    line-height: 68%;
+}
+
+#L_text_block h2 {
+    padding: 1.25vw 0vw;
+
+    color: #1C463D;
+    font-family: 'Neuton';
+    font-weight: 400;
+    font-size: 2.8125vw;
+    line-height: 42%;
+}
+
+#L_text_block p {
+    padding: 0vw 0vw 2.50vw;
+}
+
+#Cobe_block {
+    grid-column-start: 12;
+    grid-column-end: 17;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    display: grid;
+    grid-template-columns: 14.3vw 10vw;
+    grid-template-rows: 10vw 14.5vw;
+    justify-items: end;
+    align-content: center;
+    justify-content: center;
+}
+
+#Cobe_block div {
+    width: 10vw;
+    height: 10vw;
+}
+
+#Red_c {
+    align-self: end;
+    background-color: #971428;
+}
+
+#Orange_c {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    margin: 2.1vw;
+
+    background-color: #DE8371;
+    transform: rotate(45deg);
+}
+
+#Green_c {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    background-color: #1C463D;
+}

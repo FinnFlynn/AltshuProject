@@ -1,0 +1,239 @@
+#Python {
+    grid-column-start: 2;
+    grid-column-end: 18;
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Horizon {
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+    width: 38.8889vw;
+}
+
+#BFG {
+    grid-column-start: 10;
+    grid-column-end: 18;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    justify-self: end;
+
+    width: 38.8889vw;
+}
+
+#Con_block {
+    grid-column-start: 2;
+    grid-column-end: 18;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    height: 20vh;
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr;
+}
+
+#Py_text_block {
+    grid-column-start: 2;
+    grid-column-end: 18;
+    grid-row-start: 5;
+    grid-row-end: 6;
+
+    display: grid;
+    grid-template-columns: 12.5fr 3.5fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: end;
+    align-items: center;
+}
+
+#Py_text_block h2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    color: #971428;
+    font-family: 'Neuton';
+    font-weight: 400;
+    font-size: 2.4vw;
+    line-height: 42%;
+}
+
+#Py_text_block p {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    color: #1C463D;
+    font-family: 'Trykker';
+
+    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 68%;
+
+}
+
+#Up_py {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: start;
+
+    width: 20vw;
+    border-top: 0.07813vh solid #1C463D;
+}
+
+#Down_py {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: end;
+
+    width: 10vw;
+
+    border-bottom: 0.07813vh solid #1C463D;
+}
+
+#Line_block {
+    grid-column-start: 2;
+    grid-column-end: 18;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    align-self: center;
+
+    height: 3.3333vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#U_line {
+    width: 55.5556vw;
+    height: 0vh;
+    border-top: 0.07813vh solid #1C463D;
+}
+
+#Center_l {
+    width: 72.2223vw;
+    height: 0vh;
+    border: 0.07813vh solid #1C463D;
+}
+
+#D_line {
+    width: 55.5556vw;
+    height: 0vh;
+    border-bottom: 0.07813vh solid #1C463D;
+}
+
+#Blend_text_block {
+    grid-column-start: 2;
+    grid-column-end: 18;
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+    display: grid;
+    grid-template-columns: 3.5fr 12.5fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+#Blend_text_block h2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    color: #971428;
+    font-family: 'Neuton';
+
+    font-weight: 400;
+    font-size: 2.4vw;
+    line-height: 42%;
+}
+
+#Blend_text_block p {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    color: #1C463D;
+    font-family: 'Trykker';
+
+    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 68%;
+}
+
+#Up_bl {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: start;
+
+    width: 10vw;
+
+    border-top: 0.07813vh solid #1C463D;
+
+}
+
+#Down_bl {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: end;
+
+    width: 20vw;
+
+    border-bottom: 0.07813vh solid #1C463D;
+}
+
+#Blender {
+    grid-column-start: 2;
+    grid-column-end: 18;
+    grid-row-start: 7;
+    grid-row-end: 10;
+
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+#DC {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 10;
+
+    width: 30vw;
+}
+
+#Station {
+    grid-column-start: 6;
+    grid-column-end: 13;
+    grid-row-start: 7;
+    grid-row-end: 10;
+    justify-self: center;
+
+    width: 30vw;
+}
+
+#Scull {
+    grid-column-start: 12;
+    grid-column-end: 18;
+    grid-row-start: 7;
+    grid-row-end: 10;
+    justify-self: end;
+
+    width: 30vw;
+}

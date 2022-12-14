@@ -1,0 +1,10 @@
+#LAST {
+    /* display: flex; */
+    justify-content: center;
+    scroll-snap-align: end;
+}
+
+#Last_hed {
+    top: 184.225vh;
+    z-index: 1;
+}
